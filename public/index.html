@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Harika Portfolio</title>
+
+  <meta
+    name="description"
+    content="Harika Full Stack Developer Portfolio"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+</head>
+
+<body>
+
+  <div class="main-container">
+
+    <!-- TOP PROFILE -->
+
+    <div class="hero-section">
+
+      <img src="profile.jpg" class="profile-img">
+
+      <h1 class="name">
+        Harika
+      </h1>
+
+      <p class="role">
+        Aspiring Full Stack Developer · CSE(AI&ML) Student
+      </p>
+
+      <div class="social-links">
+
+        <a
+          href="https://github.com/gummadiharika27"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/gummadi-harika-51b6ab330?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- NAVIGATION -->
+
+    <div class="nav-wrapper">
+
+      <button class="tab active" data-tab="about">
+        About
+      </button>
+
+      <button class="tab" data-tab="skills">
+        Skills
+      </button>
+
+      <button class="tab" data-tab="projects">
+        Projects
+      </button>
+
+      <button class="tab" data-tab="contact">
+        Contact
+      </button>
+
+    </div>
+
+    <!-- ABOUT -->
+
+    <section class="content active-content" id="about">
+
+      <div class="content-box">
+
+        <h2>
+          About <span>Me</span>
+        </h2>
+
+        <div class="line"></div>
+<p>
+  Hi, I'm <b>Harika</b> — an enthusiastic and
+  passionate aspiring Full Stack Developer who
+  enjoys creating modern, responsive, and
+  user-friendly websites.
+</p>
+
+
+        <p>
+          I'm currently pursuing my degree at
+          <b>Shri Vishnu Engineering College for Women</b>,
+          Bhimavaram, where I'm now in my
+          <b>2nd year</b>.
+        </p>
+
+        <p>
+          I'm actively pursuing an
+          <b>internship</b>
+          to grow my skills in full-stack development
+          and create real-world projects.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="content" id="skills">
+
+      <h2>
+        My <span>Skills</span>
+      </h2>
+
+      <div class="line"></div>
+
+      <p class="skill-text">
+        Technologies I've used to build this portfolio
+        and other projects
+      </p>
+
+      <div class="skills-container">
+
+        <div class="skill-card">
+          🌐
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+          🎨
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+          ⚡
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+          ⚛️
+          <h3>React.js</h3>
+        </div>
+
+        <div class="skill-card">
+          🟢
+          <h3>Node.js</h3>
+        </div>
+
+       
+        
+
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section class="content" id="projects">
+
+      <h2>
+        My <span>Projects</span>
+      </h2>
+
+      <div class="line"></div>
+
+      <div class="projects-container">
+
+        <div class="project-card">
+
+          <h3>
+            Calculator
+          </h3>
+
+          <p>
+            Calculator using HTML CSS JavaScript
+          </p>
+
+          <a href="https://github.com/gummadiharika27/calculator" target="_blank">
+            GitHub Link
+          </a>
+
+        </div>
+
+        <div class="project-card">
+
+          <h3>
+            Todo List
+          </h3>
+
+          <p>
+            Task management application
+          </p>
+
+          <a href="https://github.com/gummadiharika27/Todo-list" target="_blank">
+            GitHub Link
+          </a>
+
+        </div>
+
+        <div class="project-card">
+
+          <h3>
+            Student Management System
+          </h3>
+
+          <p>
+            Full stack web development project
+          </p>
+
+          <a href="https://github.com/gummadiharika27/Student-Productivity-Management-System" target="_blank">
+            GitHub Link
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="content" id="contact">
+
+      <h2>
+        Contact <span>Me</span>
+      </h2>
+
+      <div class="line"></div>
+
+      <div class="contact-box">
+
+        <form id="contactForm">
+
+          <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+          >
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          >
+
+          <textarea
+            id="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">
+            Send Message
+          </button>
+
+        </form>
+
+        <p id="successMsg"></p>
+
+        <div id="history"></div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
